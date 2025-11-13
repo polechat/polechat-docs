@@ -1,85 +1,23 @@
 # Онбординг клиники
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+## Процесс онбординга клиники
 
-## Syntax Highlighting
+- сбор данных от клиниики
+- подписание и заполнение документов с клиникой
+- заполнение данных клиники на проде
+- ожидание одобрения от Cyclops
+- активация клиники на проде
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
+## Что нужно для онбординга клиники?
 
-**Input**
-
-````md
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-````
-
-**Output**
-
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-
-## Custom Containers
-
-**Input**
-
-```md
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-```
-
-**Output**
-
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-
-## More
-
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
+- название
+- название юр. лица
+- ИНН
+- ОРГН
+- КПП
+- Банковский Счет
+- Бик
+- Адресс
+- Номер Телефона
+- Фотография
+- Регион

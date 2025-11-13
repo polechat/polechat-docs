@@ -23,7 +23,6 @@ export default defineConfig({
       },
       {
         text: 'Бизнес Процессы',
-        link: '/business',
         items: [
           { text: 'Онбординг Клиники', link: '/clinic-onboarding' },
           { text: 'Получение Доступов', link: '/access-request' },
