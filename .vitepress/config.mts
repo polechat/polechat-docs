@@ -5,6 +5,7 @@ export default defineConfig({
   title: 'Polechat Docs',
   description: 'Документация Полечата',
   srcDir: './src',
+  base: '/polechat-docs',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
